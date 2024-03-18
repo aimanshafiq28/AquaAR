@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2E97C92B2CEDA4001DB996 /* InstAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E97C82B2CEDA4001DB996 /* InstAR.swift */; };
+		5E2E97CB2B2CF006001DB996 /* InstFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E97CA2B2CF006001DB996 /* InstFeedback.swift */; };
+		5E2E97CD2B2CF0C3001DB996 /* FeedbackForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E97CC2B2CF0C3001DB996 /* FeedbackForm.swift */; };
+		5E2E97CF2B2CF19F001DB996 /* ViewFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2E97CE2B2CF19F001DB996 /* ViewFeedback.swift */; };
+		5E9FB7FE2B5D84EA002F038A /* untitled.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB7FD2B5D84EA002F038A /* untitled.fbx */; };
+		5E9FB7FF2B5D84EA002F038A /* untitled.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB7FD2B5D84EA002F038A /* untitled.fbx */; };
+		5E9FB8002B5D84EA002F038A /* untitled.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB7FD2B5D84EA002F038A /* untitled.fbx */; };
+		5E9FB8062B5EBAE5002F038A /* aquaponic.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8052B5EBAE4002F038A /* aquaponic.dae */; };
+		5E9FB8072B5EBAE5002F038A /* aquaponic.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8052B5EBAE4002F038A /* aquaponic.dae */; };
+		5E9FB8082B5EBAE5002F038A /* aquaponic.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8052B5EBAE4002F038A /* aquaponic.dae */; };
+		5E9FB80B2B5EBC83002F038A /* aquaponic1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8092B5EBC83002F038A /* aquaponic1.dae */; };
+		5E9FB80C2B5EBC83002F038A /* aquaponic1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8092B5EBC83002F038A /* aquaponic1.dae */; };
+		5E9FB80D2B5EBC83002F038A /* aquaponic1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8092B5EBC83002F038A /* aquaponic1.dae */; };
+		5E9FB80E2B5EBC83002F038A /* aquaponic2.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB80A2B5EBC83002F038A /* aquaponic2.dae */; };
+		5E9FB80F2B5EBC83002F038A /* aquaponic2.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB80A2B5EBC83002F038A /* aquaponic2.dae */; };
+		5E9FB8102B5EBC83002F038A /* aquaponic2.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB80A2B5EBC83002F038A /* aquaponic2.dae */; };
+		5E9FB8122B5EBDC8002F038A /* aquaponic3.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8112B5EBDC8002F038A /* aquaponic3.dae */; };
+		5E9FB8132B5EBDC8002F038A /* aquaponic3.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8112B5EBDC8002F038A /* aquaponic3.dae */; };
+		5E9FB8142B5EBDC8002F038A /* aquaponic3.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8112B5EBDC8002F038A /* aquaponic3.dae */; };
+		5E9FB8172B5EC780002F038A /* qua.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8152B5EC77F002F038A /* qua.obj */; };
+		5E9FB8182B5EC780002F038A /* qua.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8152B5EC77F002F038A /* qua.obj */; };
+		5E9FB8192B5EC780002F038A /* qua.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8152B5EC77F002F038A /* qua.obj */; };
+		5E9FB81A2B5EC780002F038A /* qua.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8162B5EC780002F038A /* qua.mtl */; };
+		5E9FB81B2B5EC780002F038A /* qua.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8162B5EC780002F038A /* qua.mtl */; };
+		5E9FB81C2B5EC780002F038A /* qua.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8162B5EC780002F038A /* qua.mtl */; };
+		5E9FB81E2B5EC933002F038A /* aquaponic5.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB81D2B5EC932002F038A /* aquaponic5.dae */; };
+		5E9FB81F2B5EC933002F038A /* aquaponic5.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB81D2B5EC932002F038A /* aquaponic5.dae */; };
+		5E9FB8202B5EC933002F038A /* aquaponic5.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB81D2B5EC932002F038A /* aquaponic5.dae */; };
+		5E9FB8232B5EC9DD002F038A /* quq1.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8212B5EC9DC002F038A /* quq1.obj */; };
+		5E9FB8242B5EC9DD002F038A /* quq1.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8212B5EC9DC002F038A /* quq1.obj */; };
+		5E9FB8252B5EC9DD002F038A /* quq1.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8212B5EC9DC002F038A /* quq1.obj */; };
+		5E9FB8262B5EC9DD002F038A /* quq1.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8222B5EC9DD002F038A /* quq1.mtl */; };
+		5E9FB8272B5EC9DD002F038A /* quq1.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8222B5EC9DD002F038A /* quq1.mtl */; };
+		5E9FB8282B5EC9DD002F038A /* quq1.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8222B5EC9DD002F038A /* quq1.mtl */; };
+		5E9FB82A2B5ED8EA002F038A /* jar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8292B5ED8E9002F038A /* jar.swift */; };
+		5E9FB82B2B5ED8EA002F038A /* jar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8292B5ED8E9002F038A /* jar.swift */; };
+		5E9FB82C2B5ED8EA002F038A /* jar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8292B5ED8E9002F038A /* jar.swift */; };
+		5E9FB82E2B5ED911002F038A /* gravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB82D2B5ED911002F038A /* gravel.swift */; };
+		5E9FB82F2B5ED911002F038A /* gravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB82D2B5ED911002F038A /* gravel.swift */; };
+		5E9FB8302B5ED911002F038A /* gravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB82D2B5ED911002F038A /* gravel.swift */; };
+		5E9FB8322B5ED93E002F038A /* plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8312B5ED93E002F038A /* plant.swift */; };
+		5E9FB8332B5ED93E002F038A /* plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8312B5ED93E002F038A /* plant.swift */; };
+		5E9FB8342B5ED93E002F038A /* plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8312B5ED93E002F038A /* plant.swift */; };
+		5E9FB8362B5ED96E002F038A /* fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8352B5ED96E002F038A /* fish.swift */; };
+		5E9FB8372B5ED96E002F038A /* fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8352B5ED96E002F038A /* fish.swift */; };
+		5E9FB8382B5ED96E002F038A /* fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8352B5ED96E002F038A /* fish.swift */; };
+		5E9FB83A2B5ED992002F038A /* full.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8392B5ED992002F038A /* full.swift */; };
+		5E9FB83B2B5ED992002F038A /* full.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8392B5ED992002F038A /* full.swift */; };
+		5E9FB83C2B5ED992002F038A /* full.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FB8392B5ED992002F038A /* full.swift */; };
+		5E9FB8412B5EDABE002F038A /* fish.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83D2B5EDABB002F038A /* fish.dae */; };
+		5E9FB8422B5EDABE002F038A /* fish.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83D2B5EDABB002F038A /* fish.dae */; };
+		5E9FB8432B5EDABE002F038A /* fish.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83D2B5EDABB002F038A /* fish.dae */; };
+		5E9FB8442B5EDABE002F038A /* bed+gravel.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83E2B5EDABC002F038A /* bed+gravel.dae */; };
+		5E9FB8452B5EDABE002F038A /* bed+gravel.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83E2B5EDABC002F038A /* bed+gravel.dae */; };
+		5E9FB8462B5EDABE002F038A /* bed+gravel.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83E2B5EDABC002F038A /* bed+gravel.dae */; };
+		5E9FB8472B5EDABE002F038A /* bed+gravel+plant.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83F2B5EDABE002F038A /* bed+gravel+plant.dae */; };
+		5E9FB8482B5EDABE002F038A /* bed+gravel+plant.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83F2B5EDABE002F038A /* bed+gravel+plant.dae */; };
+		5E9FB8492B5EDABE002F038A /* bed+gravel+plant.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB83F2B5EDABE002F038A /* bed+gravel+plant.dae */; };
+		5E9FB84A2B5EDABE002F038A /* jar.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8402B5EDABE002F038A /* jar.dae */; };
+		5E9FB84B2B5EDABE002F038A /* jar.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8402B5EDABE002F038A /* jar.dae */; };
+		5E9FB84C2B5EDABE002F038A /* jar.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8402B5EDABE002F038A /* jar.dae */; };
+		5E9FB8562B5F6754002F038A /* full1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8552B5F6754002F038A /* full1.dae */; };
+		5E9FB8572B5F6754002F038A /* full1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8552B5F6754002F038A /* full1.dae */; };
+		5E9FB8582B5F6754002F038A /* full1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 5E9FB8552B5F6754002F038A /* full1.dae */; };
+		5EAA7B872B2F24B700E31223 /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B862B2F24B700E31223 /* SlideViewController.swift */; };
+		5EAA7B892B31B54900E31223 /* TutorialContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B882B31B54900E31223 /* TutorialContoller.swift */; };
+		5EAA7B8B2B31BA6F00E31223 /* Step1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B8A2B31BA6F00E31223 /* Step1.swift */; };
+		5EAA7B8D2B32C71F00E31223 /* Step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B8C2B32C71F00E31223 /* Step2.swift */; };
+		5EAA7B8F2B32C84F00E31223 /* Step3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B8E2B32C84F00E31223 /* Step3.swift */; };
+		5EAA7B912B32C89D00E31223 /* Step4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B902B32C89D00E31223 /* Step4.swift */; };
+		5EAA7B932B32C91100E31223 /* Step5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B922B32C91100E31223 /* Step5.swift */; };
+		5EAA7B952B32D74300E31223 /* Step6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B942B32D74300E31223 /* Step6.swift */; };
+		5EAA7B972B3722D800E31223 /* MovingGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B962B3722D800E31223 /* MovingGradientViewController.swift */; };
+		5EAA7B992B432BA100E31223 /* S2N1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B982B432BA100E31223 /* S2N1.swift */; };
+		5EAA7B9B2B49BD5000E31223 /* StepContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B9A2B49BD4F00E31223 /* StepContentViewController.swift */; };
+		5EAA7B9D2B4C3D4000E31223 /* S2AR1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B9C2B4C3D3F00E31223 /* S2AR1.swift */; };
+		5EAA7B9F2B4C4C5600E31223 /* GrowBedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7B9E2B4C4C5600E31223 /* GrowBedController.swift */; };
+		5EAA7BA12B4C4CB000E31223 /* WaterPumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7BA02B4C4CB000E31223 /* WaterPumpViewController.swift */; };
+		5EAA7BA32B4C4CE300E31223 /* PlumbingMaterialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7BA22B4C4CE300E31223 /* PlumbingMaterialsViewController.swift */; };
+		5EAA7BA52B4C4D1800E31223 /* GrowMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7BA42B4C4D1800E31223 /* GrowMediaViewController.swift */; };
+		5EAA7BA72B4C4E3D00E31223 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA7BA62B4C4E3D00E31223 /* LogoViewController.swift */; };
+		5EAA7BA92B4C6EB000E31223 /* aquaarbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA7BA82B4C6EB000E31223 /* aquaarbook.pdf */; };
+		5EAA7BAB2B4C6EFA00E31223 /* bed.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA7BAA2B4C6EFA00E31223 /* bed.obj */; };
+		5EAA7BAD2B4C783300E31223 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA7BAC2B4C783300E31223 /* GoogleService-Info.plist */; };
+		5EAA7BAE2B4C783400E31223 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA7BAC2B4C783300E31223 /* GoogleService-Info.plist */; };
+		5EAA7BAF2B4C783400E31223 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA7BAC2B4C783300E31223 /* GoogleService-Info.plist */; };
+		5EAA7BB22B4C788300E31223 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAA7BB12B4C788300E31223 /* Algorithms */; };
+		5EAB860A2B4D3066004A58DA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86092B4D3066004A58DA /* FirebaseAnalytics */; };
+		5EAB860C2B4D3066004A58DA /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB860B2B4D3066004A58DA /* FirebaseAnalyticsOnDeviceConversion */; };
+		5EAB860E2B4D3066004A58DA /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB860D2B4D3066004A58DA /* FirebaseAnalyticsSwift */; };
+		5EAB86102B4D3066004A58DA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB860F2B4D3066004A58DA /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		5EAB86122B4D3066004A58DA /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86112B4D3066004A58DA /* FirebaseAppCheck */; };
+		5EAB86142B4D3066004A58DA /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86132B4D3066004A58DA /* FirebaseAppDistribution-Beta */; };
+		5EAB86162B4D3066004A58DA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86152B4D3066004A58DA /* FirebaseAuth */; };
+		5EAB86182B4D3066004A58DA /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86172B4D3066004A58DA /* FirebaseAuthCombine-Community */; };
+		5EAB861A2B4D3066004A58DA /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86192B4D3066004A58DA /* FirebaseCrashlytics */; };
+		5EAB861C2B4D3066004A58DA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB861B2B4D3066004A58DA /* FirebaseDatabase */; };
+		5EAB861E2B4D3066004A58DA /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB861D2B4D3066004A58DA /* FirebaseDatabaseSwift */; };
+		5EAB86202B4D3066004A58DA /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB861F2B4D3066004A58DA /* FirebaseDynamicLinks */; };
+		5EAB86222B4D3066004A58DA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86212B4D3066004A58DA /* FirebaseFirestore */; };
+		5EAB86242B4D3066004A58DA /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86232B4D3066004A58DA /* FirebaseFirestoreCombine-Community */; };
+		5EAB86262B4D3066004A58DA /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86252B4D3066004A58DA /* FirebaseFirestoreSwift */; };
+		5EAB86282B4D3066004A58DA /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86272B4D3066004A58DA /* FirebaseFunctions */; };
+		5EAB862A2B4D3066004A58DA /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86292B4D3066004A58DA /* FirebaseFunctionsCombine-Community */; };
+		5EAB862C2B4D3066004A58DA /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB862B2B4D3066004A58DA /* FirebaseInAppMessaging-Beta */; };
+		5EAB862E2B4D3066004A58DA /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB862D2B4D3066004A58DA /* FirebaseInAppMessagingSwift-Beta */; };
+		5EAB86302B4D3066004A58DA /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB862F2B4D3066004A58DA /* FirebaseInstallations */; };
+		5EAB86322B4D3066004A58DA /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86312B4D3066004A58DA /* FirebaseMLModelDownloader */; };
+		5EAB86342B4D3066004A58DA /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86332B4D3066004A58DA /* FirebaseMessaging */; };
+		5EAB86362B4D3066004A58DA /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86352B4D3066004A58DA /* FirebasePerformance */; };
+		5EAB86382B4D3066004A58DA /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86372B4D3066004A58DA /* FirebaseRemoteConfig */; };
+		5EAB863A2B4D3066004A58DA /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB86392B4D3066004A58DA /* FirebaseRemoteConfigSwift */; };
+		5EAB863C2B4D3066004A58DA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB863B2B4D3066004A58DA /* FirebaseStorage */; };
+		5EAB863E2B4D3066004A58DA /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 5EAB863D2B4D3066004A58DA /* FirebaseStorageCombine-Community */; };
+		5EAB86402B4D421F004A58DA /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB863F2B4D421F004A58DA /* index.js */; };
+		5EAB86422B4DA75B004A58DA /* gravel.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB86412B4DA75B004A58DA /* gravel.obj */; };
+		5EAB86452B4DA86F004A58DA /* Hurst - Surface 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB86432B4DA86E004A58DA /* Hurst - Surface 2.jpg */; };
+		5EAB86462B4DA86F004A58DA /* Hurst - Surface 2.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB86442B4DA86F004A58DA /* Hurst - Surface 2.mtl */; };
+		5EAB86482B515873004A58DA /* GBinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB86472B515873004A58DA /* GBinfo.swift */; };
+		5EAB864A2B5AAB2A004A58DA /* Step7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB86492B5AAB27004A58DA /* Step7.swift */; };
+		5EAB864C2B5AAB4B004A58DA /* Step8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB864B2B5AAB4B004A58DA /* Step8.swift */; };
+		5EAB864E2B5AAB64004A58DA /* Step9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB864D2B5AAB64004A58DA /* Step9.swift */; };
+		5EAB86512B5AD7F0004A58DA /* jar.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB864F2B5AD7EF004A58DA /* jar.mtl */; };
+		5EAB86522B5AD7F0004A58DA /* jar.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB864F2B5AD7EF004A58DA /* jar.mtl */; };
+		5EAB86532B5AD7F0004A58DA /* jar.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB864F2B5AD7EF004A58DA /* jar.mtl */; };
+		5EAB86542B5AD7F0004A58DA /* jar.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB86502B5AD7EF004A58DA /* jar.obj */; };
+		5EAB86552B5AD7F0004A58DA /* jar.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB86502B5AD7EF004A58DA /* jar.obj */; };
+		5EAB86562B5AD7F0004A58DA /* jar.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB86502B5AD7EF004A58DA /* jar.obj */; };
+		5EB6F8332B615DF9006FDF79 /* aquaarbook1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB6F8322B615DF8006FDF79 /* aquaarbook1.pdf */; };
+		5EB6F8352B6565C9006FDF79 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB6F8342B6565C9006FDF79 /* VideoViewController.swift */; };
+		5EE07B392B0759BD0070DB40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B382B0759BD0070DB40 /* AppDelegate.swift */; };
+		5EE07B3B2B0759BD0070DB40 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B3A2B0759BD0070DB40 /* Shaders.metal */; };
+		5EE07B3E2B0759BD0070DB40 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B3D2B0759BD0070DB40 /* Renderer.swift */; };
+		5EE07B402B0759BD0070DB40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B3F2B0759BD0070DB40 /* ViewController.swift */; };
+		5EE07B432B0759BD0070DB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE07B412B0759BD0070DB40 /* Main.storyboard */; };
+		5EE07B452B0759C10070DB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE07B442B0759C10070DB40 /* Assets.xcassets */; };
+		5EE07B502B0759C10070DB40 /* AquaARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B4F2B0759C10070DB40 /* AquaARTests.swift */; };
+		5EE07B5A2B0759C10070DB40 /* AquaARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B592B0759C10070DB40 /* AquaARUITests.swift */; };
+		5EE07B5C2B0759C10070DB40 /* AquaARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B5B2B0759C10070DB40 /* AquaARUITestsLaunchTests.swift */; };
+		5EE07B692B0760770070DB40 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B682B0760770070DB40 /* CameraViewController.swift */; };
+		5EE07B6B2B07E52B0070DB40 /* ViewInstructionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B6A2B07E52B0070DB40 /* ViewInstructionController.swift */; };
+		5EE07B6D2B0B762F0070DB40 /* InstCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B6C2B0B762F0070DB40 /* InstCategoryController.swift */; };
+		5EE07B732B0BDB000070DB40 /* FeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE07B722B0BDB000070DB40 /* FeedbackController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EE07B4C2B0759C10070DB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE07B2D2B0759BD0070DB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE07B342B0759BD0070DB40;
+			remoteInfo = AquaAR;
+		};
+		5EE07B562B0759C10070DB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE07B2D2B0759BD0070DB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE07B342B0759BD0070DB40;
+			remoteInfo = AquaAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E2E97C82B2CEDA4001DB996 /* InstAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstAR.swift; sourceTree = "<group>"; };
+		5E2E97CA2B2CF006001DB996 /* InstFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstFeedback.swift; sourceTree = "<group>"; };
+		5E2E97CC2B2CF0C3001DB996 /* FeedbackForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackForm.swift; sourceTree = "<group>"; };
+		5E2E97CE2B2CF19F001DB996 /* ViewFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFeedback.swift; sourceTree = "<group>"; };
+		5E9FB7FD2B5D84EA002F038A /* untitled.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = untitled.fbx; sourceTree = "<group>"; };
+		5E9FB8052B5EBAE4002F038A /* aquaponic.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aquaponic.dae; sourceTree = "<group>"; };
+		5E9FB8092B5EBC83002F038A /* aquaponic1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aquaponic1.dae; sourceTree = "<group>"; };
+		5E9FB80A2B5EBC83002F038A /* aquaponic2.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aquaponic2.dae; sourceTree = "<group>"; };
+		5E9FB8112B5EBDC8002F038A /* aquaponic3.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aquaponic3.dae; sourceTree = "<group>"; };
+		5E9FB8152B5EC77F002F038A /* qua.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qua.obj; sourceTree = "<group>"; };
+		5E9FB8162B5EC780002F038A /* qua.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qua.mtl; sourceTree = "<group>"; };
+		5E9FB81D2B5EC932002F038A /* aquaponic5.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aquaponic5.dae; sourceTree = "<group>"; };
+		5E9FB8212B5EC9DC002F038A /* quq1.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quq1.obj; sourceTree = "<group>"; };
+		5E9FB8222B5EC9DD002F038A /* quq1.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quq1.mtl; sourceTree = "<group>"; };
+		5E9FB8292B5ED8E9002F038A /* jar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jar.swift; sourceTree = "<group>"; };
+		5E9FB82D2B5ED911002F038A /* gravel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gravel.swift; sourceTree = "<group>"; };
+		5E9FB8312B5ED93E002F038A /* plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plant.swift; sourceTree = "<group>"; };
+		5E9FB8352B5ED96E002F038A /* fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fish.swift; sourceTree = "<group>"; };
+		5E9FB8392B5ED992002F038A /* full.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = full.swift; sourceTree = "<group>"; };
+		5E9FB83D2B5EDABB002F038A /* fish.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = fish.dae; sourceTree = "<group>"; };
+		5E9FB83E2B5EDABC002F038A /* bed+gravel.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "bed+gravel.dae"; sourceTree = "<group>"; };
+		5E9FB83F2B5EDABE002F038A /* bed+gravel+plant.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = "bed+gravel+plant.dae"; sourceTree = "<group>"; };
+		5E9FB8402B5EDABE002F038A /* jar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = jar.dae; sourceTree = "<group>"; };
+		5E9FB8552B5F6754002F038A /* full1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = full1.dae; sourceTree = "<group>"; };
+		5EAA7B862B2F24B700E31223 /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		5EAA7B882B31B54900E31223 /* TutorialContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContoller.swift; sourceTree = "<group>"; };
+		5EAA7B8A2B31BA6F00E31223 /* Step1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1.swift; sourceTree = "<group>"; };
+		5EAA7B8C2B32C71F00E31223 /* Step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2.swift; sourceTree = "<group>"; };
+		5EAA7B8E2B32C84F00E31223 /* Step3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3.swift; sourceTree = "<group>"; };
+		5EAA7B902B32C89D00E31223 /* Step4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4.swift; sourceTree = "<group>"; };
+		5EAA7B922B32C91100E31223 /* Step5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5.swift; sourceTree = "<group>"; };
+		5EAA7B942B32D74300E31223 /* Step6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step6.swift; sourceTree = "<group>"; };
+		5EAA7B962B3722D800E31223 /* MovingGradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingGradientViewController.swift; sourceTree = "<group>"; };
+		5EAA7B982B432BA100E31223 /* S2N1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2N1.swift; sourceTree = "<group>"; };
+		5EAA7B9A2B49BD4F00E31223 /* StepContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepContentViewController.swift; sourceTree = "<group>"; };
+		5EAA7B9C2B4C3D3F00E31223 /* S2AR1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2AR1.swift; sourceTree = "<group>"; };
+		5EAA7B9E2B4C4C5600E31223 /* GrowBedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowBedController.swift; sourceTree = "<group>"; };
+		5EAA7BA02B4C4CB000E31223 /* WaterPumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterPumpViewController.swift; sourceTree = "<group>"; };
+		5EAA7BA22B4C4CE300E31223 /* PlumbingMaterialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumbingMaterialsViewController.swift; sourceTree = "<group>"; };
+		5EAA7BA42B4C4D1800E31223 /* GrowMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowMediaViewController.swift; sourceTree = "<group>"; };
+		5EAA7BA62B4C4E3D00E31223 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
+		5EAA7BA82B4C6EB000E31223 /* aquaarbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aquaarbook.pdf; sourceTree = "<group>"; };
+		5EAA7BAA2B4C6EFA00E31223 /* bed.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bed.obj; sourceTree = "<group>"; };
+		5EAA7BAC2B4C783300E31223 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EAB863F2B4D421F004A58DA /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		5EAB86412B4DA75B004A58DA /* gravel.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gravel.obj; sourceTree = "<group>"; };
+		5EAB86432B4DA86E004A58DA /* Hurst - Surface 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hurst - Surface 2.jpg"; sourceTree = "<group>"; };
+		5EAB86442B4DA86F004A58DA /* Hurst - Surface 2.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hurst - Surface 2.mtl"; sourceTree = "<group>"; };
+		5EAB86472B515873004A58DA /* GBinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBinfo.swift; sourceTree = "<group>"; };
+		5EAB86492B5AAB27004A58DA /* Step7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step7.swift; sourceTree = "<group>"; };
+		5EAB864B2B5AAB4B004A58DA /* Step8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step8.swift; sourceTree = "<group>"; };
+		5EAB864D2B5AAB64004A58DA /* Step9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step9.swift; sourceTree = "<group>"; };
+		5EAB864F2B5AD7EF004A58DA /* jar.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jar.mtl; sourceTree = "<group>"; };
+		5EAB86502B5AD7EF004A58DA /* jar.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jar.obj; sourceTree = "<group>"; };
+		5EB6F8322B615DF8006FDF79 /* aquaarbook1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aquaarbook1.pdf; sourceTree = "<group>"; };
+		5EB6F8342B6565C9006FDF79 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		5EE07B352B0759BD0070DB40 /* AquaAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE07B382B0759BD0070DB40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EE07B3A2B0759BD0070DB40 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		5EE07B3C2B0759BD0070DB40 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		5EE07B3D2B0759BD0070DB40 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		5EE07B3F2B0759BD0070DB40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EE07B422B0759BD0070DB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EE07B442B0759C10070DB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE07B462B0759C10070DB40 /* AquaAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AquaAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EE07B4B2B0759C10070DB40 /* AquaARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE07B4F2B0759C10070DB40 /* AquaARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaARTests.swift; sourceTree = "<group>"; };
+		5EE07B552B0759C10070DB40 /* AquaARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE07B592B0759C10070DB40 /* AquaARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaARUITests.swift; sourceTree = "<group>"; };
+		5EE07B5B2B0759C10070DB40 /* AquaARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EE07B682B0760770070DB40 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5EE07B6A2B07E52B0070DB40 /* ViewInstructionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstructionController.swift; sourceTree = "<group>"; };
+		5EE07B6C2B0B762F0070DB40 /* InstCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstCategoryController.swift; sourceTree = "<group>"; };
+		5EE07B722B0BDB000070DB40 /* FeedbackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE07B322B0759BD0070DB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAB86342B4D3066004A58DA /* FirebaseMessaging in Frameworks */,
+				5EAA7BB22B4C788300E31223 /* Algorithms in Frameworks */,
+				5EAB86262B4D3066004A58DA /* FirebaseFirestoreSwift in Frameworks */,
+				5EAB86102B4D3066004A58DA /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				5EAB86282B4D3066004A58DA /* FirebaseFunctions in Frameworks */,
+				5EAB860A2B4D3066004A58DA /* FirebaseAnalytics in Frameworks */,
+				5EAB86162B4D3066004A58DA /* FirebaseAuth in Frameworks */,
+				5EAB86202B4D3066004A58DA /* FirebaseDynamicLinks in Frameworks */,
+				5EAB861A2B4D3066004A58DA /* FirebaseCrashlytics in Frameworks */,
+				5EAB86322B4D3066004A58DA /* FirebaseMLModelDownloader in Frameworks */,
+				5EAB861E2B4D3066004A58DA /* FirebaseDatabaseSwift in Frameworks */,
+				5EAB86222B4D3066004A58DA /* FirebaseFirestore in Frameworks */,
+				5EAB86302B4D3066004A58DA /* FirebaseInstallations in Frameworks */,
+				5EAB862A2B4D3066004A58DA /* FirebaseFunctionsCombine-Community in Frameworks */,
+				5EAB86242B4D3066004A58DA /* FirebaseFirestoreCombine-Community in Frameworks */,
+				5EAB861C2B4D3066004A58DA /* FirebaseDatabase in Frameworks */,
+				5EAB86362B4D3066004A58DA /* FirebasePerformance in Frameworks */,
+				5EAB86122B4D3066004A58DA /* FirebaseAppCheck in Frameworks */,
+				5EAB860C2B4D3066004A58DA /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				5EAB862E2B4D3066004A58DA /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				5EAB863A2B4D3066004A58DA /* FirebaseRemoteConfigSwift in Frameworks */,
+				5EAB860E2B4D3066004A58DA /* FirebaseAnalyticsSwift in Frameworks */,
+				5EAB86142B4D3066004A58DA /* FirebaseAppDistribution-Beta in Frameworks */,
+				5EAB86382B4D3066004A58DA /* FirebaseRemoteConfig in Frameworks */,
+				5EAB863C2B4D3066004A58DA /* FirebaseStorage in Frameworks */,
+				5EAB86182B4D3066004A58DA /* FirebaseAuthCombine-Community in Frameworks */,
+				5EAB863E2B4D3066004A58DA /* FirebaseStorageCombine-Community in Frameworks */,
+				5EAB862C2B4D3066004A58DA /* FirebaseInAppMessaging-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE07B482B0759C10070DB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE07B522B0759C10070DB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE07B2C2B0759BD0070DB40 = {
+			isa = PBXGroup;
+			children = (
+				5EAB863F2B4D421F004A58DA /* index.js */,
+				5EE07B372B0759BD0070DB40 /* AquaAR */,
+				5EE07B4E2B0759C10070DB40 /* AquaARTests */,
+				5EE07B582B0759C10070DB40 /* AquaARUITests */,
+				5EE07B362B0759BD0070DB40 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		5EE07B362B0759BD0070DB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE07B352B0759BD0070DB40 /* AquaAR.app */,
+				5EE07B4B2B0759C10070DB40 /* AquaARTests.xctest */,
+				5EE07B552B0759C10070DB40 /* AquaARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE07B372B0759BD0070DB40 /* AquaAR */ = {
+			isa = PBXGroup;
+			children = (
+				5EE07B382B0759BD0070DB40 /* AppDelegate.swift */,
+				5EE07B3A2B0759BD0070DB40 /* Shaders.metal */,
+				5EE07B3C2B0759BD0070DB40 /* ShaderTypes.h */,
+				5EE07B3D2B0759BD0070DB40 /* Renderer.swift */,
+				5EE07B3F2B0759BD0070DB40 /* ViewController.swift */,
+				5EE07B6A2B07E52B0070DB40 /* ViewInstructionController.swift */,
+				5EE07B6C2B0B762F0070DB40 /* InstCategoryController.swift */,
+				5EE07B722B0BDB000070DB40 /* FeedbackController.swift */,
+				5EE07B682B0760770070DB40 /* CameraViewController.swift */,
+				5EAB86412B4DA75B004A58DA /* gravel.obj */,
+				5E9FB8222B5EC9DD002F038A /* quq1.mtl */,
+				5E9FB8212B5EC9DC002F038A /* quq1.obj */,
+				5EE07B412B0759BD0070DB40 /* Main.storyboard */,
+				5E9FB8112B5EBDC8002F038A /* aquaponic3.dae */,
+				5E9FB8162B5EC780002F038A /* qua.mtl */,
+				5E9FB8152B5EC77F002F038A /* qua.obj */,
+				5EAA7BAC2B4C783300E31223 /* GoogleService-Info.plist */,
+				5E9FB81D2B5EC932002F038A /* aquaponic5.dae */,
+				5EE07B442B0759C10070DB40 /* Assets.xcassets */,
+				5E9FB8052B5EBAE4002F038A /* aquaponic.dae */,
+				5EE07B462B0759C10070DB40 /* AquaAR-Bridging-Header.h */,
+				5EAB86432B4DA86E004A58DA /* Hurst - Surface 2.jpg */,
+				5E9FB8092B5EBC83002F038A /* aquaponic1.dae */,
+				5E9FB80A2B5EBC83002F038A /* aquaponic2.dae */,
+				5EAB86442B4DA86F004A58DA /* Hurst - Surface 2.mtl */,
+				5E9FB7FD2B5D84EA002F038A /* untitled.fbx */,
+				5E2E97C82B2CEDA4001DB996 /* InstAR.swift */,
+				5E2E97CA2B2CF006001DB996 /* InstFeedback.swift */,
+				5E2E97CC2B2CF0C3001DB996 /* FeedbackForm.swift */,
+				5E2E97CE2B2CF19F001DB996 /* ViewFeedback.swift */,
+				5EAA7B862B2F24B700E31223 /* SlideViewController.swift */,
+				5EAA7BAA2B4C6EFA00E31223 /* bed.obj */,
+				5EAA7B882B31B54900E31223 /* TutorialContoller.swift */,
+				5EAA7B8A2B31BA6F00E31223 /* Step1.swift */,
+				5EAA7BA82B4C6EB000E31223 /* aquaarbook.pdf */,
+				5EAB864F2B5AD7EF004A58DA /* jar.mtl */,
+				5EAB86502B5AD7EF004A58DA /* jar.obj */,
+				5EAA7B8C2B32C71F00E31223 /* Step2.swift */,
+				5EAA7B8E2B32C84F00E31223 /* Step3.swift */,
+				5E9FB8552B5F6754002F038A /* full1.dae */,
+				5EAA7B902B32C89D00E31223 /* Step4.swift */,
+				5EAA7B922B32C91100E31223 /* Step5.swift */,
+				5EAA7B942B32D74300E31223 /* Step6.swift */,
+				5EAA7B962B3722D800E31223 /* MovingGradientViewController.swift */,
+				5EAA7B982B432BA100E31223 /* S2N1.swift */,
+				5EAA7B9A2B49BD4F00E31223 /* StepContentViewController.swift */,
+				5EAA7B9C2B4C3D3F00E31223 /* S2AR1.swift */,
+				5EAA7B9E2B4C4C5600E31223 /* GrowBedController.swift */,
+				5EAA7BA02B4C4CB000E31223 /* WaterPumpViewController.swift */,
+				5EB6F8322B615DF8006FDF79 /* aquaarbook1.pdf */,
+				5EAA7BA22B4C4CE300E31223 /* PlumbingMaterialsViewController.swift */,
+				5E9FB83E2B5EDABC002F038A /* bed+gravel.dae */,
+				5E9FB83F2B5EDABE002F038A /* bed+gravel+plant.dae */,
+				5E9FB83D2B5EDABB002F038A /* fish.dae */,
+				5E9FB8402B5EDABE002F038A /* jar.dae */,
+				5EAA7BA42B4C4D1800E31223 /* GrowMediaViewController.swift */,
+				5EAA7BA62B4C4E3D00E31223 /* LogoViewController.swift */,
+				5EAB86472B515873004A58DA /* GBinfo.swift */,
+				5EAB86492B5AAB27004A58DA /* Step7.swift */,
+				5EAB864B2B5AAB4B004A58DA /* Step8.swift */,
+				5EAB864D2B5AAB64004A58DA /* Step9.swift */,
+				5E9FB8292B5ED8E9002F038A /* jar.swift */,
+				5E9FB82D2B5ED911002F038A /* gravel.swift */,
+				5E9FB8312B5ED93E002F038A /* plant.swift */,
+				5E9FB8352B5ED96E002F038A /* fish.swift */,
+				5E9FB8392B5ED992002F038A /* full.swift */,
+				5EB6F8342B6565C9006FDF79 /* VideoViewController.swift */,
+			);
+			path = AquaAR;
+			sourceTree = "<group>";
+		};
+		5EE07B4E2B0759C10070DB40 /* AquaARTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE07B4F2B0759C10070DB40 /* AquaARTests.swift */,
+			);
+			path = AquaARTests;
+			sourceTree = "<group>";
+		};
+		5EE07B582B0759C10070DB40 /* AquaARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE07B592B0759C10070DB40 /* AquaARUITests.swift */,
+				5EE07B5B2B0759C10070DB40 /* AquaARUITestsLaunchTests.swift */,
+			);
+			path = AquaARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE07B342B0759BD0070DB40 /* AquaAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE07B5F2B0759C10070DB40 /* Build configuration list for PBXNativeTarget "AquaAR" */;
+			buildPhases = (
+				5EE07B312B0759BD0070DB40 /* Sources */,
+				5EE07B322B0759BD0070DB40 /* Frameworks */,
+				5EE07B332B0759BD0070DB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquaAR;
+			packageProductDependencies = (
+				5EAA7BB12B4C788300E31223 /* Algorithms */,
+				5EAB86092B4D3066004A58DA /* FirebaseAnalytics */,
+				5EAB860B2B4D3066004A58DA /* FirebaseAnalyticsOnDeviceConversion */,
+				5EAB860D2B4D3066004A58DA /* FirebaseAnalyticsSwift */,
+				5EAB860F2B4D3066004A58DA /* FirebaseAnalyticsWithoutAdIdSupport */,
+				5EAB86112B4D3066004A58DA /* FirebaseAppCheck */,
+				5EAB86132B4D3066004A58DA /* FirebaseAppDistribution-Beta */,
+				5EAB86152B4D3066004A58DA /* FirebaseAuth */,
+				5EAB86172B4D3066004A58DA /* FirebaseAuthCombine-Community */,
+				5EAB86192B4D3066004A58DA /* FirebaseCrashlytics */,
+				5EAB861B2B4D3066004A58DA /* FirebaseDatabase */,
+				5EAB861D2B4D3066004A58DA /* FirebaseDatabaseSwift */,
+				5EAB861F2B4D3066004A58DA /* FirebaseDynamicLinks */,
+				5EAB86212B4D3066004A58DA /* FirebaseFirestore */,
+				5EAB86232B4D3066004A58DA /* FirebaseFirestoreCombine-Community */,
+				5EAB86252B4D3066004A58DA /* FirebaseFirestoreSwift */,
+				5EAB86272B4D3066004A58DA /* FirebaseFunctions */,
+				5EAB86292B4D3066004A58DA /* FirebaseFunctionsCombine-Community */,
+				5EAB862B2B4D3066004A58DA /* FirebaseInAppMessaging-Beta */,
+				5EAB862D2B4D3066004A58DA /* FirebaseInAppMessagingSwift-Beta */,
+				5EAB862F2B4D3066004A58DA /* FirebaseInstallations */,
+				5EAB86312B4D3066004A58DA /* FirebaseMLModelDownloader */,
+				5EAB86332B4D3066004A58DA /* FirebaseMessaging */,
+				5EAB86352B4D3066004A58DA /* FirebasePerformance */,
+				5EAB86372B4D3066004A58DA /* FirebaseRemoteConfig */,
+				5EAB86392B4D3066004A58DA /* FirebaseRemoteConfigSwift */,
+				5EAB863B2B4D3066004A58DA /* FirebaseStorage */,
+				5EAB863D2B4D3066004A58DA /* FirebaseStorageCombine-Community */,
+			);
+			productName = AquaAR;
+			productReference = 5EE07B352B0759BD0070DB40 /* AquaAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EE07B4A2B0759C10070DB40 /* AquaARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE07B622B0759C10070DB40 /* Build configuration list for PBXNativeTarget "AquaARTests" */;
+			buildPhases = (
+				5EE07B472B0759C10070DB40 /* Sources */,
+				5EE07B482B0759C10070DB40 /* Frameworks */,
+				5EE07B492B0759C10070DB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE07B4D2B0759C10070DB40 /* PBXTargetDependency */,
+			);
+			name = AquaARTests;
+			productName = AquaARTests;
+			productReference = 5EE07B4B2B0759C10070DB40 /* AquaARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EE07B542B0759C10070DB40 /* AquaARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE07B652B0759C10070DB40 /* Build configuration list for PBXNativeTarget "AquaARUITests" */;
+			buildPhases = (
+				5EE07B512B0759C10070DB40 /* Sources */,
+				5EE07B522B0759C10070DB40 /* Frameworks */,
+				5EE07B532B0759C10070DB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE07B572B0759C10070DB40 /* PBXTargetDependency */,
+			);
+			name = AquaARUITests;
+			productName = AquaARUITests;
+			productReference = 5EE07B552B0759C10070DB40 /* AquaARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE07B2D2B0759BD0070DB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5EE07B342B0759BD0070DB40 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5EE07B4A2B0759C10070DB40 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5EE07B342B0759BD0070DB40;
+					};
+					5EE07B542B0759C10070DB40 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5EE07B342B0759BD0070DB40;
+					};
+				};
+			};
+			buildConfigurationList = 5EE07B302B0759BD0070DB40 /* Build configuration list for PBXProject "AquaAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EE07B2C2B0759BD0070DB40;
+			packageReferences = (
+				5EAA7BB02B4C788300E31223 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5EE07B362B0759BD0070DB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EE07B342B0759BD0070DB40 /* AquaAR */,
+				5EE07B4A2B0759C10070DB40 /* AquaARTests */,
+				5EE07B542B0759C10070DB40 /* AquaARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE07B332B0759BD0070DB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FB84A2B5EDABE002F038A /* jar.dae in Resources */,
+				5E9FB8262B5EC9DD002F038A /* quq1.mtl in Resources */,
+				5E9FB80E2B5EBC83002F038A /* aquaponic2.dae in Resources */,
+				5E9FB8232B5EC9DD002F038A /* quq1.obj in Resources */,
+				5EAA7BA92B4C6EB000E31223 /* aquaarbook.pdf in Resources */,
+				5E9FB8412B5EDABE002F038A /* fish.dae in Resources */,
+				5E9FB8472B5EDABE002F038A /* bed+gravel+plant.dae in Resources */,
+				5E9FB81E2B5EC933002F038A /* aquaponic5.dae in Resources */,
+				5EAB86462B4DA86F004A58DA /* Hurst - Surface 2.mtl in Resources */,
+				5E9FB81A2B5EC780002F038A /* qua.mtl in Resources */,
+				5E9FB80B2B5EBC83002F038A /* aquaponic1.dae in Resources */,
+				5EE07B452B0759C10070DB40 /* Assets.xcassets in Resources */,
+				5EAB86452B4DA86F004A58DA /* Hurst - Surface 2.jpg in Resources */,
+				5E9FB8062B5EBAE5002F038A /* aquaponic.dae in Resources */,
+				5EAB86422B4DA75B004A58DA /* gravel.obj in Resources */,
+				5E9FB8562B5F6754002F038A /* full1.dae in Resources */,
+				5EAA7BAD2B4C783300E31223 /* GoogleService-Info.plist in Resources */,
+				5EB6F8332B615DF9006FDF79 /* aquaarbook1.pdf in Resources */,
+				5EAB86402B4D421F004A58DA /* index.js in Resources */,
+				5E9FB8122B5EBDC8002F038A /* aquaponic3.dae in Resources */,
+				5EE07B432B0759BD0070DB40 /* Main.storyboard in Resources */,
+				5E9FB8442B5EDABE002F038A /* bed+gravel.dae in Resources */,
+				5EAB86542B5AD7F0004A58DA /* jar.obj in Resources */,
+				5EAA7BAB2B4C6EFA00E31223 /* bed.obj in Resources */,
+				5E9FB8172B5EC780002F038A /* qua.obj in Resources */,
+				5EAB86512B5AD7F0004A58DA /* jar.mtl in Resources */,
+				5E9FB7FE2B5D84EA002F038A /* untitled.fbx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE07B492B0759C10070DB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FB81F2B5EC933002F038A /* aquaponic5.dae in Resources */,
+				5EAB86552B5AD7F0004A58DA /* jar.obj in Resources */,
+				5EAA7BAE2B4C783400E31223 /* GoogleService-Info.plist in Resources */,
+				5E9FB8452B5EDABE002F038A /* bed+gravel.dae in Resources */,
+				5E9FB8132B5EBDC8002F038A /* aquaponic3.dae in Resources */,
+				5E9FB81B2B5EC780002F038A /* qua.mtl in Resources */,
+				5E9FB8182B5EC780002F038A /* qua.obj in Resources */,
+				5EAB86522B5AD7F0004A58DA /* jar.mtl in Resources */,
+				5E9FB8572B5F6754002F038A /* full1.dae in Resources */,
+				5E9FB7FF2B5D84EA002F038A /* untitled.fbx in Resources */,
+				5E9FB80C2B5EBC83002F038A /* aquaponic1.dae in Resources */,
+				5E9FB8272B5EC9DD002F038A /* quq1.mtl in Resources */,
+				5E9FB8422B5EDABE002F038A /* fish.dae in Resources */,
+				5E9FB8242B5EC9DD002F038A /* quq1.obj in Resources */,
+				5E9FB8482B5EDABE002F038A /* bed+gravel+plant.dae in Resources */,
+				5E9FB84B2B5EDABE002F038A /* jar.dae in Resources */,
+				5E9FB80F2B5EBC83002F038A /* aquaponic2.dae in Resources */,
+				5E9FB8072B5EBAE5002F038A /* aquaponic.dae in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE07B532B0759C10070DB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FB8202B5EC933002F038A /* aquaponic5.dae in Resources */,
+				5EAB86562B5AD7F0004A58DA /* jar.obj in Resources */,
+				5EAA7BAF2B4C783400E31223 /* GoogleService-Info.plist in Resources */,
+				5E9FB8462B5EDABE002F038A /* bed+gravel.dae in Resources */,
+				5E9FB8142B5EBDC8002F038A /* aquaponic3.dae in Resources */,
+				5E9FB81C2B5EC780002F038A /* qua.mtl in Resources */,
+				5E9FB8192B5EC780002F038A /* qua.obj in Resources */,
+				5EAB86532B5AD7F0004A58DA /* jar.mtl in Resources */,
+				5E9FB8582B5F6754002F038A /* full1.dae in Resources */,
+				5E9FB8002B5D84EA002F038A /* untitled.fbx in Resources */,
+				5E9FB80D2B5EBC83002F038A /* aquaponic1.dae in Resources */,
+				5E9FB8282B5EC9DD002F038A /* quq1.mtl in Resources */,
+				5E9FB8432B5EDABE002F038A /* fish.dae in Resources */,
+				5E9FB8252B5EC9DD002F038A /* quq1.obj in Resources */,
+				5E9FB8492B5EDABE002F038A /* bed+gravel+plant.dae in Resources */,
+				5E9FB84C2B5EDABE002F038A /* jar.dae in Resources */,
+				5E9FB8102B5EBC83002F038A /* aquaponic2.dae in Resources */,
+				5E9FB8082B5EBAE5002F038A /* aquaponic.dae in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE07B312B0759BD0070DB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAA7B892B31B54900E31223 /* TutorialContoller.swift in Sources */,
+				5E9FB8322B5ED93E002F038A /* plant.swift in Sources */,
+				5E2E97CB2B2CF006001DB996 /* InstFeedback.swift in Sources */,
+				5EAB864E2B5AAB64004A58DA /* Step9.swift in Sources */,
+				5EAA7B8B2B31BA6F00E31223 /* Step1.swift in Sources */,
+				5EB6F8352B6565C9006FDF79 /* VideoViewController.swift in Sources */,
+				5EAA7B8F2B32C84F00E31223 /* Step3.swift in Sources */,
+				5EAA7B972B3722D800E31223 /* MovingGradientViewController.swift in Sources */,
+				5E2E97CF2B2CF19F001DB996 /* ViewFeedback.swift in Sources */,
+				5EAA7BA12B4C4CB000E31223 /* WaterPumpViewController.swift in Sources */,
+				5EAA7B8D2B32C71F00E31223 /* Step2.swift in Sources */,
+				5EAA7B872B2F24B700E31223 /* SlideViewController.swift in Sources */,
+				5EE07B3B2B0759BD0070DB40 /* Shaders.metal in Sources */,
+				5E9FB82A2B5ED8EA002F038A /* jar.swift in Sources */,
+				5E9FB82E2B5ED911002F038A /* gravel.swift in Sources */,
+				5EE07B692B0760770070DB40 /* CameraViewController.swift in Sources */,
+				5EAA7B932B32C91100E31223 /* Step5.swift in Sources */,
+				5EE07B3E2B0759BD0070DB40 /* Renderer.swift in Sources */,
+				5E2E97CD2B2CF0C3001DB996 /* FeedbackForm.swift in Sources */,
+				5EAA7B952B32D74300E31223 /* Step6.swift in Sources */,
+				5EE07B6B2B07E52B0070DB40 /* ViewInstructionController.swift in Sources */,
+				5EAA7B9D2B4C3D4000E31223 /* S2AR1.swift in Sources */,
+				5EE07B402B0759BD0070DB40 /* ViewController.swift in Sources */,
+				5EE07B732B0BDB000070DB40 /* FeedbackController.swift in Sources */,
+				5EAA7B912B32C89D00E31223 /* Step4.swift in Sources */,
+				5EE07B6D2B0B762F0070DB40 /* InstCategoryController.swift in Sources */,
+				5EAA7BA72B4C4E3D00E31223 /* LogoViewController.swift in Sources */,
+				5EAA7B992B432BA100E31223 /* S2N1.swift in Sources */,
+				5EAA7BA52B4C4D1800E31223 /* GrowMediaViewController.swift in Sources */,
+				5EAA7B9F2B4C4C5600E31223 /* GrowBedController.swift in Sources */,
+				5E2E97C92B2CEDA4001DB996 /* InstAR.swift in Sources */,
+				5E9FB83A2B5ED992002F038A /* full.swift in Sources */,
+				5EAB864C2B5AAB4B004A58DA /* Step8.swift in Sources */,
+				5EAB864A2B5AAB2A004A58DA /* Step7.swift in Sources */,
+				5EAA7B9B2B49BD5000E31223 /* StepContentViewController.swift in Sources */,
+				5EAA7BA32B4C4CE300E31223 /* PlumbingMaterialsViewController.swift in Sources */,
+				5E9FB8362B5ED96E002F038A /* fish.swift in Sources */,
+				5EAB86482B515873004A58DA /* GBinfo.swift in Sources */,
+				5EE07B392B0759BD0070DB40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE07B472B0759C10070DB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FB83B2B5ED992002F038A /* full.swift in Sources */,
+				5EE07B502B0759C10070DB40 /* AquaARTests.swift in Sources */,
+				5E9FB8372B5ED96E002F038A /* fish.swift in Sources */,
+				5E9FB8332B5ED93E002F038A /* plant.swift in Sources */,
+				5E9FB82F2B5ED911002F038A /* gravel.swift in Sources */,
+				5E9FB82B2B5ED8EA002F038A /* jar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE07B512B0759C10070DB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FB8302B5ED911002F038A /* gravel.swift in Sources */,
+				5E9FB8342B5ED93E002F038A /* plant.swift in Sources */,
+				5E9FB82C2B5ED8EA002F038A /* jar.swift in Sources */,
+				5E9FB83C2B5ED992002F038A /* full.swift in Sources */,
+				5E9FB8382B5ED96E002F038A /* fish.swift in Sources */,
+				5EE07B5A2B0759C10070DB40 /* AquaARUITests.swift in Sources */,
+				5EE07B5C2B0759C10070DB40 /* AquaARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EE07B4D2B0759C10070DB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE07B342B0759BD0070DB40 /* AquaAR */;
+			targetProxy = 5EE07B4C2B0759C10070DB40 /* PBXContainerItemProxy */;
+		};
+		5EE07B572B0759C10070DB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE07B342B0759BD0070DB40 /* AquaAR */;
+			targetProxy = 5EE07B562B0759C10070DB40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EE07B412B0759BD0070DB40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE07B422B0759BD0070DB40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EE07B5D2B0759C10070DB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EE07B5E2B0759C10070DB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE07B602B0759C10070DB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 295KQL7232;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AquaAR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR3.AquaAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AquaAR/AquaAR-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE07B612B0759C10070DB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 295KQL7232;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AquaAR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR3.AquaAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AquaAR/AquaAR-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EE07B632B0759C10070DB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR3.AquaARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquaAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AquaAR";
+			};
+			name = Debug;
+		};
+		5EE07B642B0759C10070DB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR3.AquaARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AquaAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AquaAR";
+			};
+			name = Release;
+		};
+		5EE07B662B0759C10070DB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR3.AquaARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquaAR;
+			};
+			name = Debug;
+		};
+		5EE07B672B0759C10070DB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AR3.AquaARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AquaAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE07B302B0759BD0070DB40 /* Build configuration list for PBXProject "AquaAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE07B5D2B0759C10070DB40 /* Debug */,
+				5EE07B5E2B0759C10070DB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE07B5F2B0759C10070DB40 /* Build configuration list for PBXNativeTarget "AquaAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE07B602B0759C10070DB40 /* Debug */,
+				5EE07B612B0759C10070DB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE07B622B0759C10070DB40 /* Build configuration list for PBXNativeTarget "AquaARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE07B632B0759C10070DB40 /* Debug */,
+				5EE07B642B0759C10070DB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE07B652B0759C10070DB40 /* Build configuration list for PBXNativeTarget "AquaARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE07B662B0759C10070DB40 /* Debug */,
+				5EE07B672B0759C10070DB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EAA7BB02B4C788300E31223 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EAA7BB12B4C788300E31223 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB02B4C788300E31223 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		5EAB86092B4D3066004A58DA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5EAB860B2B4D3066004A58DA /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		5EAB860D2B4D3066004A58DA /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		5EAB860F2B4D3066004A58DA /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		5EAB86112B4D3066004A58DA /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		5EAB86132B4D3066004A58DA /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		5EAB86152B4D3066004A58DA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5EAB86172B4D3066004A58DA /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		5EAB86192B4D3066004A58DA /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		5EAB861B2B4D3066004A58DA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5EAB861D2B4D3066004A58DA /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		5EAB861F2B4D3066004A58DA /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		5EAB86212B4D3066004A58DA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5EAB86232B4D3066004A58DA /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		5EAB86252B4D3066004A58DA /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		5EAB86272B4D3066004A58DA /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		5EAB86292B4D3066004A58DA /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		5EAB862B2B4D3066004A58DA /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		5EAB862D2B4D3066004A58DA /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		5EAB862F2B4D3066004A58DA /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		5EAB86312B4D3066004A58DA /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		5EAB86332B4D3066004A58DA /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		5EAB86352B4D3066004A58DA /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		5EAB86372B4D3066004A58DA /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		5EAB86392B4D3066004A58DA /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		5EAB863B2B4D3066004A58DA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		5EAB863D2B4D3066004A58DA /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EAA7BB32B4C797500E31223 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5EE07B2D2B0759BD0070DB40 /* Project object */;
+}
